@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import MethodAsPropsParent from './components/MethodAsPropsParent';
+import Searchbar from './components/Searchbar';
+
 
 
 function App() {
   return (
     <div className="App">
-      <MethodAsPropsParent  />
+      <Searchbar />
     </div>
   );
 }
