@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 
 
@@ -8,7 +8,7 @@ import HTTPPost from './components/HTTPPost';
 function App() {
   return (
     <div className="App">
-      <HTTPPost />
+      <HTTPHooks />
     </div>
   );
 }
