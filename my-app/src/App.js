@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Searchbar from './components/Searchbar';
+import HTTPPost from './components/HTTPPost';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Searchbar />
+      <HTTPPost />
     </div>
   );
 }

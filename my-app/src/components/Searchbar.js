@@ -16,7 +16,7 @@ export class Searchbar extends Component {
         const inputText = event.target.value.toLowerCase()
         console.log(inputText)
         const filteredNames = importedNames.filter(name => {
-           return name.toLocaleLowerCase().includes(inputText)
+           return name.toLowerCase().includes(inputText)
         })
         console.log(filteredNames)
         this.setState({

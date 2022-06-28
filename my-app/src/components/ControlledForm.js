@@ -6,7 +6,7 @@ export class ControlledForm extends Component {
 
         this.state = {
             name: "",
-            category: "",
+            category: "network",
             comment: "",
         }
     }
